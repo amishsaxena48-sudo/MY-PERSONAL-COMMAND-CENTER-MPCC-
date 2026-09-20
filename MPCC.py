@@ -18,9 +18,7 @@ while True:
     print(f.YELLOW+s.BRIGHT+"8. GGSIPU MAIN WEBSITE")
     print(f.YELLOW+s.BRIGHT+"9. GGSIPU REGISTRATION SITE")
     print(f.YELLOW+s.BRIGHT+"10. CBSE")
-    print(f.BLUE+s.BRIGHT+"11. JIMS ROHINI SEC 5 WEBSITE")
-    print(f.BLUE+s.BRIGHT+"12. BCA SYLLABUS")
-    print (f.GREEN+s.BRIGHT+"13. ---------EXIT---------")
+    print (f.GREEN+s.BRIGHT+"11. ---------EXIT---------")
     print(f.GREEN+'='*147)
     print()
     d=input(f.CYAN+s.BRIGHT+"Enter Your Choice Number: ")       
@@ -75,16 +73,6 @@ while True:
         print(f.GREEN+'='*147)
         print()
     elif d=='11':
-        print(f.YELLOW+s.BRIGHT+' JIMS ROHINI SEC 5 WEBSITE IS OPENING......')
-        webbrowser.open('https://www.jimsrohini.org')
-        print(f.GREEN+'='*147)
-        print()
-    elif d=='12':
-        print(f.YELLOW+s.BRIGHT+'BCA SYLLABUS IS OPENING......')
-        webbrowser.open('https://www.ipu.ac.in/Pubinfo2025/nt040825531%20(7).pdf')
-        print(f.GREEN+'='*147)
-        print()
-    elif d=='13':
         print('='*147)
         print()
         print(f.GREEN+s.BRIGHT+" ---------EXIT--------- ")
