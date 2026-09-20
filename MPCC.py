@@ -54,7 +54,7 @@ while True:
         print()
     elif d=='7':
         print(' GOOGLE GEMINI IS OPENING.....')
-        webbrowser.open('https://gemini.google.com/app?hl=en-IN')
+        webbrowser.open('https://gemini.google.com')
         print(f.GREEN+'='*147)
         print()
     elif d=='8':
